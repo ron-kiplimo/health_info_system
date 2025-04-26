@@ -15,7 +15,7 @@ Built with **FastAPI** and **SQLite**, deployed on **Render**.
 
 ## Live Demo
 
-🔗 [View Deployed Application](https://ron-kiplimo.onrender.com)
+🔗 [View Deployed Application](https://dashboard.render.com/web/srv-d06cllhr0fns73fg2q9g)
 
 API Docs: [Swagger UI](https://ron-kiplimo.onrender.com/docs)
 
