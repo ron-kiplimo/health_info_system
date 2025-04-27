@@ -17,7 +17,10 @@ Built with **FastAPI** and **SQLite**, deployed on **Render**.
 
 🔗 [View Deployed Application](https://dashboard.render.com/web/srv-d06cllhr0fns73fg2q9g)
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> 506df574c4e39a05bdd0d62f796bcd03de56bfa3
 ## Technologies Used
 
 - FastAPI (Python)

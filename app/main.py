@@ -5,9 +5,23 @@ from .api import endpoints
 
 models.Base.metadata.create_all(bind=engine)
 
-app = FastAPI()
+# Customized FastAPI app
+app = FastAPI(
+    title="Health Information System",
+    description="An API for managing clients and health programs.",
+    version="1.0.0",
+    contact={
+        "name": "Ronald Kibet Kiplimo",
+        "email": "rkkiplimo@gmail.com",
+        "url": "https://your-portfolio-or-github-link.com",  # optional
+    },
+    license_info={
+        "name": "MIT License",
+        "url": "https://opensource.org/licenses/MIT",
+    }
+)
 
-# Include our API router
+# Include API routes
 app.include_router(endpoints.router)
 
 @app.get("/")
