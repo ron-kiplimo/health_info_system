@@ -7,23 +7,15 @@ models.Base.metadata.create_all(bind=engine)
 
 # Customized FastAPI app
 app = FastAPI(
+    docs_url="/api-docs",        # Instead of /docs
+    redoc_url="/redocs",          # Optional second documentation at /redocs
+    openapi_url="/openapi.json",  # OpenAPI schema URL
     title="Health Information System",
     description="An API for managing clients and health programs.",
     version="1.0.0",
     contact={
         "name": "Ronald Kibet Kiplimo",
         "email": "rkkiplimo@gmail.com",
-        "url": "https://your-portfolio-or-github-link.com",  # optional
+        "url": "https://your-portfolio-or-github-link.com",
     },
-    license_info={
-        "name": "MIT License",
-        "url": "https://opensource.org/licenses/MIT",
-    }
 )
-
-# Include API routes
-app.include_router(endpoints.router)
-
-@app.get("/")
-def read_root():
-    return {"message": "Health Information System is running"}
