@@ -15,7 +15,7 @@ Built with **FastAPI** and **SQLite**, deployed on **Render**.
 
 ## Live Demo
 
-🔗 [View Deployed Application](https://dashboard.render.com/web/srv-d06cllhr0fns73fg2q9g)
+🔗 [View Deployed Application](https://health-info-system-svtr.onrender.com/docs)
 
 <<<<<<< HEAD
 
