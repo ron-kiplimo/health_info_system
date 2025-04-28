@@ -17,10 +17,6 @@ Built with **FastAPI** and **SQLite**, deployed on **Render**.
 
 🔗 [View Deployed Application](https://health-info-system-svtr.onrender.com/docs)
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 506df574c4e39a05bdd0d62f796bcd03de56bfa3
 ## Technologies Used
 
 - FastAPI (Python)
