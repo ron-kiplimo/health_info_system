@@ -13,7 +13,7 @@ app = FastAPI(
     contact={
         "name": "Ronald Kibet Kiplimo",
         "email": "rkkiplimo@gmail.com",
-        "url": "https://your-portfolio-or-github-link.com",  # optional
+        "url": "https://github.com/ron-kiplimo",  # optional
     },
 )
 
