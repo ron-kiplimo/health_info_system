@@ -15,7 +15,10 @@ Built with **FastAPI** and **SQLite**, deployed on **Render**.
 
 ## Live Demo
 
-🔗 [View Deployed Application](https://health-info-system-svtr.onrender.com/docs)
+API Docs: [Swagger UI](https://health-info-system-svtr.onrender.com/docs)
+
+🔗 [View Deployed Application](https://health-info-system-svtr.onrender.com)
+
 
 ## Technologies Used
 
